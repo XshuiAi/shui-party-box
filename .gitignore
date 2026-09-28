@@ -1,0 +1,11 @@
+
+# 三首已获公开分发授权的 MP3 随项目发布；原录屏截图不发布。
+assets/background-local.mp3
+references/audio-review/video-*.jpg
+
+# 本机测试、预览与过程记录不进入发布仓库。
+preview/
+tests/
+references/verification.md
+.DS_Store
+node_modules/

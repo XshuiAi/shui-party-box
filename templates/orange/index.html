@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <base href="../../">
+  <script>window.PARTY_THEME="orange";window.PARTY_LAYOUT="illustrated";</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1a1233">
+  <title>今晚玩什么｜小水的聚会盒子</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="music-config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-theme="purple">
+  <audio id="backgroundMusic" preload="none"></audio>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" id="homeButton" type="button">小水的聚会盒子</button>
+      <div class="top-actions">
+        <button class="small-action" id="soundButton" type="button" aria-pressed="false">声音：关</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="screen screen-home" id="homeScreen" aria-labelledby="homeTitle">
+        <div class="hero-copy">
+          <h1 id="homeTitle">今晚，<br><span>快乐加一。</span></h1>
+          <img class="hero-art" id="heroArt" src="assets/dice-cards-v2.png" alt="骰子和游戏卡牌">
+        </div>
+        <div class="setup-card">
+          <h2>人到齐了吗？</h2>
+          <div class="count-row" id="countRow" role="group" aria-label="选择人数"></div>
+          <div class="name-heading"><label for="playerName0">参与者</label><span id="nameCount"></span></div>
+          <div class="names-grid" id="nameInputs"></div>
+          <p class="field-error" id="setupError" role="alert"></p>
+          <div class="home-buttons">
+            <button class="btn btn-primary" id="chooseButton" type="button">自己选游戏 <span aria-hidden="true">→</span></button>
+            <button class="btn btn-secondary" id="randomButton" type="button">转盘抽一个</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" id="chooseScreen" hidden aria-labelledby="chooseTitle">
+        <div class="screen-head"><button class="back" data-back="home" type="button" aria-label="返回首页">‹</button><div><h1 id="chooseTitle">选游戏</h1></div></div>
+        <p class="screen-context" id="chooseContext"></p>
+        <div class="game-grid" id="gameGrid"></div>
+        <button class="btn btn-secondary full" id="chooseRandomButton" type="button">交给转盘决定</button>
+      </section>
+
+      <section class="screen" id="wheelScreen" hidden aria-labelledby="wheelTitle">
+        <div class="screen-head"><button class="back" data-back="home" type="button" aria-label="返回首页">‹</button><div><h1 id="wheelTitle">转盘抽游戏</h1></div></div>
+        <div class="wheel-wrap">
+          <div class="wheel-pointer" aria-hidden="true"></div>
+          <div class="wheel" id="wheel" aria-label="游戏转盘"><div class="wheel-labels" id="wheelLabels"></div><div class="wheel-center" aria-hidden="true"></div></div>
+        </div>
+        <p class="wheel-result" id="wheelResult" role="status">转一下，看看玩什么</p>
+        <button class="btn btn-primary full" id="spinButton" type="button">开始转</button>
+        <button class="btn btn-secondary full" id="playSpinButton" type="button" hidden>玩这个游戏</button>
+        <button class="text-button" id="chooseInsteadButton" type="button">自己选游戏</button>
+      </section>
+
+      <section class="screen" id="gameScreen" hidden aria-labelledby="gameTitle">
+        <div class="screen-head"><button class="back" data-back="choose" type="button" aria-label="返回游戏列表">‹</button><div><p class="section-tag" id="gameCounter">GAME</p><h1 id="gameTitle"></h1></div></div>
+        <div class="rule-line"><p id="gameRule"></p><button class="text-button" id="restartGameButton" type="button">重开</button></div>
+        <div id="gameBody" class="game-body" aria-live="polite"></div>
+      </section>
+    </main>
+    <p class="toast" id="toast" role="status" aria-live="polite"></p>
+  </div>
+</body>
+</html>
