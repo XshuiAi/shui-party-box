@@ -2,7 +2,7 @@
 
 **2–5 人，打开网页就能玩的聚会小游戏。** 自己选游戏，或交给转盘决定。
 
-作者：[Sherry 小水](https://github.com/XshuiAi) · [制作与改造 Skill](SKILL.md) · [豆包使用提示词](docs/doubao.md) · [设计与模板](docs/design.md)
+作者：[Sherry 小水](https://github.com/XshuiAi) · [在线试玩](https://xshuiai.github.io/shui-party-box/) · [制作与改造 Skill](SKILL.md) · [豆包使用提示词](docs/doubao.md) · [设计与模板](docs/design.md)
 
 ![最终可玩界面](docs/screenshots/overview.png)
 
@@ -22,7 +22,7 @@
 
 ## 打开
 
-下载仓库 ZIP，解压后双击 `index.html`。保留整个目录，图片、样式和脚本都要一起带走。电脑与手机共用响应式页面。
+直接打开 [在线试玩](https://xshuiai.github.io/shui-party-box/)；手机也可打开。下载仓库 ZIP 后双击 `index.html` 也能本地玩。保留整个目录，图片、样式和脚本都要一起带走。电脑与手机共用响应式页面。
 
 手机适合打开部署后的 HTTPS 网页；电脑上的 `127.0.0.1` 链接不能直接拿给别人的手机使用。GitHub 仓库页面用于看代码，不等于游戏页面。
 
