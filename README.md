@@ -16,47 +16,22 @@
 
 ## 有哪些游戏
 
-### 谁是卧底｜4–5 人
+<table>
+<tr>
+<td width="25%" valign="top"><b>谁是卧底｜4–5 人</b><br/><br/><a href="docs/screenshots/game-spy.png"><img src="docs/screenshots/game-spy.png" width="180" alt="谁是卧底｜4–5 人" /></a><br/>私下看词 → 轮流描述 → 投票揭晓。</td>
+<td width="25%" valign="top"><b>数字炸弹｜2–5 人</b><br/><br/><a href="docs/screenshots/game-bomb.png"><img src="docs/screenshots/game-bomb.png" width="180" alt="数字炸弹｜2–5 人" /></a><br/>轮流猜数字，范围逐步缩小，猜中结束。</td>
+<td width="25%" valign="top"><b>5 秒说三个｜2–5 人</b><br/><br/><a href="docs/screenshots/game-five.png"><img src="docs/screenshots/game-five.png" width="180" alt="5 秒说三个｜2–5 人" /></a><br/>5 秒内说出三个答案，同伴判定并计分。</td>
+<td width="25%" valign="top"><b>你比我猜｜2–5 人</b><br/><br/><a href="docs/screenshots/game-charades.png"><img src="docs/screenshots/game-charades.png" width="180" alt="你比我猜｜2–5 人" /></a><br/>一人用动作表演，其他人猜，每轮 60 秒。</td>
+</tr>
+<tr>
+<td width="25%" valign="top"><b>真心话大冒险｜2–5 人</b><br/><br/><a href="docs/screenshots/game-truth.png"><img src="docs/screenshots/game-truth.png" width="180" alt="真心话大冒险｜2–5 人" /></a><br/>选题型、抽题，不想答可换题。</td>
+<td width="25%" valign="top"><b>默契大考验｜2–5 人</b><br/><br/><a href="docs/screenshots/game-match.png"><img src="docs/screenshots/game-match.png" width="180" alt="默契大考验｜2–5 人" /></a><br/>每人私下作答，全部完成后一起揭晓。</td>
+<td width="25%" valign="top"><b>掷骰比大小｜2–5 人</b><br/><br/><a href="docs/screenshots/game-dice.png"><img src="docs/screenshots/game-dice.png" width="180" alt="掷骰比大小｜2–5 人" /></a><br/>每人掷一次，最高点数获胜，同点数并列。</td>
+<td width="25%" valign="top"><b>自选或转盘</b><br/><br/><a href="docs/screenshots/games.png"><img src="docs/screenshots/games.png" width="180" alt="自选或转盘" /></a><br/>首页选人数、填姓名，自选游戏或随机抽取。</td>
+</tr>
+</table>
 
-每人私下按住看词，松手隐藏。轮流描述，讨论、投票，再揭晓身份。少于 4 人不可选。
-
-<img src="docs/screenshots/game-spy.png" width="320" alt="谁是卧底游戏页面" />
-
-### 数字炸弹｜2–5 人
-
-轮流猜 1–100 的数字，逐步缩小可猜范围，猜中隐藏数字就结束本轮。
-
-<img src="docs/screenshots/game-bomb.png" width="320" alt="数字炸弹游戏页面" />
-
-### 5 秒说三个｜2–5 人
-
-看题后启动倒计时，5 秒内说出三个答案。由同伴判断是否完成，页面记录分数。
-
-<img src="docs/screenshots/game-five.png" width="320" alt="5 秒说三个游戏页面" />
-
-### 你比我猜｜2–5 人
-
-一人看词后用动作表演，其他人猜。不能说话或比划文字，每轮 60 秒，猜对记录得分。
-
-<img src="docs/screenshots/game-charades.png" width="320" alt="你比我猜游戏页面" />
-
-### 真心话大冒险｜2–5 人
-
-选择题型后轮流抽题，不想回答或不想做可以换题，完成后交给下一位。
-
-<img src="docs/screenshots/game-truth.png" width="320" alt="真心话大冒险游戏页面" />
-
-### 默契大考验｜2–5 人
-
-针对同一道题，每人私下选择答案，全部选完后一起揭晓，看看谁和谁最有默契。
-
-<img src="docs/screenshots/game-match.png" width="320" alt="默契大考验游戏页面" />
-
-### 掷骰比大小｜2–5 人
-
-每人轮流掷一次，全部掷完比较点数。最高点数获胜，同点数并列，可再玩一轮。
-
-<img src="docs/screenshots/game-dice.png" width="320" alt="掷骰比大小游戏页面" />
+点击图片可查看大图。
 
 ## 让豆包工作做出自己的版本
 
@@ -80,16 +55,38 @@
 
 只想立即玩，无需安装 Skill，直接打开 [在线游戏](https://xshuiai.github.io/shui-party-box/)。
 
-## 三种样式
+## 三种模板
 
-想制作自己的游戏，可以直接告诉 Skill 选择紫色、蓝色或奶油橙样式，再描述玩法。默认成品使用紫色，其他两种作为继续开发的模板。
+想制作自己的游戏，可以告诉 Skill 选择模板一、模板二或模板三，再描述玩法。每套展示两张设计参考；实际游戏内容以可玩页面为准。
 
-| 紫色 | 蓝色 | 奶油橙 |
-|---|---|---|
-| ![紫色](docs/screenshots/template-purple.png) | ![蓝色](docs/screenshots/template-blue.png) | ![奶油橙](docs/screenshots/template-orange.png) |
-| [打开](https://xshuiai.github.io/shui-party-box/) | [打开](https://xshuiai.github.io/shui-party-box/templates/blue/) | [打开](https://xshuiai.github.io/shui-party-box/templates/orange/) |
+### 模板一｜紫色
 
-例如：“使用蓝色模板，帮我做一个四人轮流抽题的小游戏，先和我确认规则，再实现开始、操作、结果和再玩一轮。”
+<table><tr>
+<td width="50%"><a href="docs/design/purple-original.png"><img src="docs/design/purple-original.png" width="440" alt="紫色模板 · 设计一" /></a></td>
+<td width="50%"><a href="docs/design/purple-functional.png"><img src="docs/design/purple-functional.png" width="440" alt="紫色模板 · 设计二" /></a></td>
+</tr></table>
+
+[打开紫色模板](https://xshuiai.github.io/shui-party-box/)
+
+### 模板二｜蓝色
+
+<table><tr>
+<td width="50%"><a href="docs/design/blue-original.png"><img src="docs/design/blue-original.png" width="440" alt="蓝色模板 · 设计一" /></a></td>
+<td width="50%"><a href="docs/design/blue-functional.png"><img src="docs/design/blue-functional.png" width="440" alt="蓝色模板 · 设计二" /></a></td>
+</tr></table>
+
+[打开蓝色模板](https://xshuiai.github.io/shui-party-box/templates/blue/)
+
+### 模板三｜奶油橙
+
+<table><tr>
+<td width="50%"><a href="docs/design/orange-original.png"><img src="docs/design/orange-original.png" width="440" alt="奶油橙模板 · 设计一" /></a></td>
+<td width="50%"><a href="docs/design/orange-functional.png"><img src="docs/design/orange-functional.png" width="440" alt="奶油橙模板 · 设计二" /></a></td>
+</tr></table>
+
+[打开奶油橙模板](https://xshuiai.github.io/shui-party-box/templates/orange/)
+
+例如：“使用模板二，帮我做一个四人轮流抽题的小游戏，先确认规则，再实现完整回合。”
 
 [模板入口与选择方法](docs/design.md)
 

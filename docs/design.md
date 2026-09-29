@@ -1,11 +1,33 @@
-# 三种样式
+# 三种模板
 
-制作自己的游戏时，直接告诉 Skill 想用哪种样式，再说明人数、规则和操作。公共游戏页面默认紫色，不设换肤按钮。
+想制作自己的游戏，可以告诉 Skill 选择模板一、模板二或模板三，再描述玩法。每套展示两张设计参考；实际游戏内容以可玩页面为准。
 
-| 紫色 | 蓝色 | 奶油橙 |
-|---|---|---|
-| ![紫色](screenshots/template-purple.png) | ![蓝色](screenshots/template-blue.png) | ![奶油橙](screenshots/template-orange.png) |
-| [打开](https://xshuiai.github.io/shui-party-box/) | [打开](https://xshuiai.github.io/shui-party-box/templates/blue/) | [打开](https://xshuiai.github.io/shui-party-box/templates/orange/) |
+### 模板一｜紫色
+
+<table><tr>
+<td width="50%"><a href="design/purple-original.png"><img src="design/purple-original.png" width="440" alt="紫色模板 · 设计一" /></a></td>
+<td width="50%"><a href="design/purple-functional.png"><img src="design/purple-functional.png" width="440" alt="紫色模板 · 设计二" /></a></td>
+</tr></table>
+
+[打开紫色模板](https://xshuiai.github.io/shui-party-box/)
+
+### 模板二｜蓝色
+
+<table><tr>
+<td width="50%"><a href="design/blue-original.png"><img src="design/blue-original.png" width="440" alt="蓝色模板 · 设计一" /></a></td>
+<td width="50%"><a href="design/blue-functional.png"><img src="design/blue-functional.png" width="440" alt="蓝色模板 · 设计二" /></a></td>
+</tr></table>
+
+[打开蓝色模板](https://xshuiai.github.io/shui-party-box/templates/blue/)
+
+### 模板三｜奶油橙
+
+<table><tr>
+<td width="50%"><a href="design/orange-original.png"><img src="design/orange-original.png" width="440" alt="奶油橙模板 · 设计一" /></a></td>
+<td width="50%"><a href="design/orange-functional.png"><img src="design/orange-functional.png" width="440" alt="奶油橙模板 · 设计二" /></a></td>
+</tr></table>
+
+[打开奶油橙模板](https://xshuiai.github.io/shui-party-box/templates/orange/)
 
 ## 对 Skill 这样说
 
